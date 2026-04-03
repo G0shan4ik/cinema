@@ -1,0 +1,48 @@
+*test.py
+
+# ======================
+# Общие
+# ======================
+.DS_Store
+Thumbs.db
+*.log
+.env
+
+# ======================
+# Python (backend)
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Виртуальное окружение
+venv/
+.env/
+.venv/
+
+# Django / FastAPI
+*.sqlite3
+
+# ======================
+# Node.js / Vue (frontend)
+# ======================
+node_modules/
+dist/
+build/
+
+# npm / yarn
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ======================
+# IDE
+# ======================
+.vscode/
+.idea/
+
+# ======================
+# OS
+# ======================
+*.swp
